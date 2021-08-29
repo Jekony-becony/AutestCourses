@@ -1,0 +1,141 @@
+{
+  "id": "c01cb16a-05fb-4887-89b1-20cbe6ebae45",
+  "version": "2.0",
+  "name": "EmailTest",
+  "url": "https://diary.ru/",
+  "tests": [{
+    "id": "bfb4f9e5-b859-4562-9655-77d13be7d52c",
+    "name": "TestEmail",
+    "commands": [{
+      "id": "60a5d66f-c71a-4b83-977d-bef6eaaba552",
+      "comment": "",
+      "command": "open",
+      "target": "https://diary.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d09ff051-0e22-4f51-af80-df40e2a05d26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e51b8c6-5a76-493c-86c7-87940348d47f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-new-user",
+      "targets": [
+        ["css=.i-new-user", "css:finder"],
+        ["xpath=//div[@id='navbar_user-collapse']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a71acd4-e837-45f9-b6f8-2f0dda1c33e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupform-email",
+      "targets": [
+        ["id=signupform-email", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupform-email", "css:finder"],
+        ["xpath=//input[@id='signupform-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19a966ed-559f-475c-a91f-6dc4c98a77a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupform-email",
+      "targets": [
+        ["id=signupform-email", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupform-email", "css:finder"],
+        ["xpath=//input[@id='signupform-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "ivanenko231@gmail.com"
+    }, {
+      "id": "70fd666a-d129-4391-9648-ce946bcba2de",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wrapper > .container",
+      "targets": [
+        ["css=#wrapper > .container", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ea8de6a-5178-4053-a39e-cf614330477c",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupform-username",
+      "targets": [
+        ["id=signupform-username", "id"],
+        ["name=SignupForm[username]", "name"],
+        ["css=#signupform-username", "css:finder"],
+        ["xpath=//input[@id='signupform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01b4e781-0cd3-4643-8c9f-e354092e654b",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupform-username",
+      "targets": [
+        ["id=signupform-username", "id"],
+        ["name=SignupForm[username]", "name"],
+        ["css=#signupform-username", "css:finder"],
+        ["xpath=//input[@id='signupform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "Qwerty123"
+    }, {
+      "id": "f91b5422-1c05-4982-9ea6-bdf76e07d133",
+      "comment": "",
+      "command": "click",
+      "target": "id=chk_box_user_confirm",
+      "targets": [
+        ["id=chk_box_user_confirm", "id"],
+        ["css=#chk_box_user_confirm", "css:finder"],
+        ["xpath=//input[@id='chk_box_user_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[4]/label/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ca27055-37a3-471e-8c20-e86236e7ad21",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=условиями обработки персональных данных",
+      "targets": [
+        ["linkText=условиями обработки персональных данных", "linkText"],
+        ["css=small > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'условиями обработки персональных данных')]", "xpath:link"],
+        ["xpath=//form[@id='registration_form']/div[4]/label/small/a[3]", "xpath:idRelative"],
+        ["xpath=//a[@href='http://info.diary.ru/index.php?title=%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85']", "xpath:href"],
+        ["xpath=//small/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'условиями обработки персональных данных')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1fd13206-3945-4fc5-816c-37a4ddb5e6f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bfb4f9e5-b859-4562-9655-77d13be7d52c"]
+  }],
+  "urls": ["https://github.com/", "https://diary.ru/"],
+  "plugins": []
+}
